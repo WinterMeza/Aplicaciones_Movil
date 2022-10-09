@@ -1,4 +1,3 @@
-Actividad 3: 
 // APLICACIONES Móvil.
 // Nombres y Apellidos: Winter Aníbal Meza Jiménez.
 // Curso: Séptimo "A" 2022(2).

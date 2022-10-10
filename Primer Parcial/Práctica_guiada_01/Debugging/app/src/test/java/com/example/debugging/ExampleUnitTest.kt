@@ -5,9 +5,12 @@ import org.junit.Test
 import org.junit.Assert.*
 
 /**
- * Example local unit test, which will execute on the development machine (host).
- *
- * See [testing documentation](http://d.android.com/tools/testing).
+  APLICACIONES Móvil.
+  Nombres y Apellidos: Winter Aníbal Meza Jiménez.
+  Curso: Séptimo "A" 2022(2).
+  Práctica Guiada: Hola mundo Kotlin.
+  Fecha: Jueves, 4 de octubre de 2022.
+  Docente: Ing. Edgardo Panchana Flores, Mg.
  */
 class ExampleUnitTest {
     @Test

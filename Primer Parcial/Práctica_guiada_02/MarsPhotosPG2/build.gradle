@@ -1,0 +1,40 @@
+/*
+APLICACIONES Móvil.
+Nombres y Apellidos: Winter Aníbal Meza Jiménez.
+Curso: Séptimo "A" 2022(2).
+Práctica Guiada 2: Cómo obtener datos de Internet.
+Fecha: Domingo, 22 de octubre de 2022.
+Docente: Ing. Edgardo Panchana Flores, Mg.
+ */
+
+// Este es un archivo de compilación de nivel superior donde puede
+// agregar opciones de configuración comunes a todos los subproyectos/módulos.
+buildscript {
+    ext {
+        // Versiones para todas las dependencias que planeamos usar. Es particularmente útil para kotlin
+        // donde las versiones del complemento deben ser las mismas que la versión del
+        // biblioteca definida en el archivo Gradle de la aplicación.
+        kotlin_version = "1.5.31"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // NOTA: No colocar aquí las dependencias de su aplicación; ya que ellos pertenecen
+        // en los archivos build.gradle del módulo individual.
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

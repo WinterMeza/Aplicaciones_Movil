@@ -1,4 +1,4 @@
-# APLICACIONES Móviles
+# APLICACIONES MÓVILES
 # Repositorio: Tareas y Prácticas Guíadas.
 - Facultad: Ciencias de la Vida y Tecnologías.
 - Carrera: Ingeniería en Tecnologías de la Información.

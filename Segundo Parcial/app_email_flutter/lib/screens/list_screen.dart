@@ -16,21 +16,19 @@ Docente: Ing. Edgardo Panchana Flores, Mg.
 class ListScreen extends StatefulWidget {
   const ListScreen({Key? key, required this.title}) : super(key: key);
 
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
+  // Este widget se refiere a la página de inicio de la aplicación. Es con estado, lo que significa
+  // que tiene un objeto State que se define a continuación y que contiene campos que afectan como luce .
 
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
+ 
+  //  Los campos en una subclase de Widget son siempre marcado como "final".
 
   final String title;
 
   @override
   _ListScreenState createState() => _ListScreenState();
 }
-
+  // Esta clase es para la configuración del estado. Contiene los valores que en este caso es el título provisto por
+  // el padre que en este caso, el widget de la aplicación y utilizado por el método de construcción del Estado.
 class _ListScreenState extends State<ListScreen> {
   // State.
   var emails = Backend().getEmails();

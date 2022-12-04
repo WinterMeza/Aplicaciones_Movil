@@ -17,7 +17,8 @@ class Backend {
 
   Backend._internal();
 
-  /// Private list of emails. Hardcoded here for testing purposes.
+  /// Esta es una lista privada de correos electrónicos.
+  /// Está codificado aquí para fines de prueba.
   final _emails = [
     Email(
       id: 631,
@@ -103,21 +104,21 @@ class Backend {
   ];
 
   ///
-  /// Public API starts here :)
+  /// La API pública empieza aquí:
   ///
 
-  /// Returns all emails.
+  /// Esta lista nos evuelve todos los correos electrónicos.
   List<Email> getEmails() {
     return _emails;
   }
 
-  /// Marks email identified by its id as read.
+  /// Aqui se marca el correo electrónico identificado por su ID como estado de leído.
   void markEmailAsRead(int id) {
     final index = _emails.indexWhere((email) => email.id == id);
     _emails[index].read = true;
   }
 
-  /// Deletes email identified by its id.
+  /// Se elimina el correo electrónico identificado por su id.
   void deleteEmail(int id) {
     _emails.removeWhere((email) => email.id == id);
   }

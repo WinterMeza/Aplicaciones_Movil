@@ -1,4 +1,4 @@
-MarsPhotos - Starter Code
+# app_email_flutter
 ==================================
 # APLICACIONES Móviles
 # Repositorio: Tareas y Prácticas Guíadas.
@@ -8,7 +8,7 @@ MarsPhotos - Starter Code
 - Curso: Séptimo "A" 2022(2).
 - Docente: Ing. Edgardo Panchana Flores, Mg.
 
-# app_email_flutter
+
 
 A new Flutter project.
 
